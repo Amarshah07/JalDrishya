@@ -1,0 +1,17 @@
+/* style.css */
+:root {
+    --ocean-bg: #CAF0F8; --text-primary: #003554; --accent: #00B4D8;
+    --accent-dark: #0077B6; --white: #FFFFFF; --light-blue: #E6FBFF;
+}
+body { font-family: "Segoe UI", Roboto, sans-serif; }
+.stApp {
+    background: linear-gradient(180deg, var(--light-blue), var(--ocean-bg));
+    color: var(--text-primary);
+}
+.stButton>button { background: linear-gradient(90deg,#00b4d8,#0077b6); color: #fff; border-radius:10px; padding:8px 16px; }
+div[data-testid="stExpander"] summary {
+    background-color: rgba(255, 255, 255, 0.5); border-radius: 10px;
+    border: 1px solid var(--accent); color: var(--text-primary);
+    font-weight: 600; transition: background-color 0.2s ease-in-out;
+}
+div[data-testid="stExpander"] summary:hover { background-color: rgba(255, 255, 255, 0.9); }

@@ -1,0 +1,7 @@
+streamlit
+pandas
+ollama
+folium
+streamlit-folium
+plotly
+google-generativeai
